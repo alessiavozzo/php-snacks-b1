@@ -17,8 +17,8 @@ $age = $_GET["age"];
 <body>
     <form action="" method="get">
         <input type="text" placeholder="inserisci il tuo nome" name="name" id="name">
-        <input type="email" placeholder="inserisci la tua email" name="email" id="email">
-        <input type="number" placeholder="inserisci età" name="age" id="age">
+        <input type="text" placeholder="inserisci la tua email" name="email" id="email">
+        <input type="text" placeholder="inserisci età" name="age" id="age">
         <button type="submit">Invia</button>
     </form>
 
