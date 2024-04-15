@@ -33,6 +33,10 @@ for($i = 0; $i < count($matches); $i++){
     echo $match["team"] . " " . "-" . " " . $match["guest"] . " | " . $match["teamScore"] . "-" . $match["guestScore"] . "<br>";
 };
 
+foreach($matches as $match){
+    echo $match["team"] . " - " . $match["guest"] . " | " . $match["teamScore"] . "-" . $match["guestScore"] . "<br>";
+};
+
 ?>
 
 
