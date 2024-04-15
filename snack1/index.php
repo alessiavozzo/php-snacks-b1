@@ -30,9 +30,8 @@ $matches = [
 
 for($i = 0; $i < count($matches); $i++){
     $match = $matches[$i];
-
-    echo $match["team"] . " " . "-" . " " . $match["ospite"] . " | " . $match["teamScore"] . "-" . $match["guestScore"] . "<br>";
-}
+    echo $match["team"] . " " . "-" . " " . $match["guest"] . " | " . $match["teamScore"] . "-" . $match["guestScore"] . "<br>";
+};
 
 ?>
 
